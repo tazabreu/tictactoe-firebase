@@ -74,6 +74,10 @@ export default function Page() {
     localStorage.removeItem('ttt-board');
   };
 
+  // lib/firebase.ts (or any file you like)
+console.log('Firebase project:', process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID);
+
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background text-foreground transition-colors duration-500">
       <button
